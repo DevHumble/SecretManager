@@ -7,7 +7,9 @@ from SecretManager import SecretManager
 sk = SecretManager.SecretManager()
 sk.get_secret('your_secret')
 <pre>
-Test
 
+# TEST
+<per>
 # Run command in project root on cmd line
 python -m unittest test.integration.test_SecretManager
+<pre>
