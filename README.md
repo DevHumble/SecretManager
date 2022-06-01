@@ -3,7 +3,7 @@ Python client for AWS Secret keys management. This can be used easily to manage 
 
 # Quickstart
 <pre>
-from SecretManager import SecretManager
+from secretmanager import SecretManager
 sk = SecretManager.SecretManager()
 sk.get_secret('your_secret')
 <pre>
